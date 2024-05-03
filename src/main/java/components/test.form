@@ -23,57 +23,98 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace pref="150" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="tertiaryButton1" min="-2" pref="104" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="secundaryButton2" pref="104" max="32767" attributes="0"/>
-                      <Component id="primaryButton1" pref="104" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="150" max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace pref="150" max="32767" attributes="0"/>
-              <Component id="primaryButton1" min="-2" pref="36" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-              <Component id="secundaryButton2" min="-2" pref="36" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-              <Component id="tertiaryButton1" min="-2" pref="36" max="-2" attributes="0"/>
-              <EmptySpace pref="150" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="components.SecundaryButton" name="secundaryButton2">
+    <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Secundary"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secundaryButton2ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="components.PrimaryButton" name="primaryButton1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Primary"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="primaryButton1ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="components.tertiaryButton" name="tertiaryButton1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Tertiary"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tertiaryButton1ActionPerformed"/>
-      </Events>
-    </Component>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace pref="200" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="iconTextField2" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="primaryButton1" min="-2" pref="104" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="secundaryButton1" min="-2" pref="104" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="tertiaryButton1" min="-2" pref="104" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="iconTextField3" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="200" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="178" max="32767" attributes="0"/>
+                  <Component id="iconTextField3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="iconTextField2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="primaryButton1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="secundaryButton1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="tertiaryButton1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="207" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="components.tertiaryButton" name="tertiaryButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Click me"/>
+          </Properties>
+        </Component>
+        <Component class="components.SecundaryButton" name="secundaryButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Click me"/>
+          </Properties>
+        </Component>
+        <Component class="components.PrimaryButton" name="primaryButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Click me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="primaryButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="components.IconTextField" name="iconTextField2">
+          <Properties>
+            <Property name="sufixIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/emailIcon.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="components.IconTextField" name="iconTextField3">
+          <Properties>
+            <Property name="sufixIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/userIcon.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>

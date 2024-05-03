@@ -157,7 +157,7 @@ public class PrimaryButton extends JButton {
     private Color colorOver;
     private Color colorClick;
     private Color borderColor;
-    private int borderRadius = 16;
+    private int borderRadius = 8;
     private int borderSize = 0;
 
     @Override

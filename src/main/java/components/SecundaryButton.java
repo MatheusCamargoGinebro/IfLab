@@ -97,7 +97,7 @@ public class SecundaryButton extends JButton {
 
     public SecundaryButton() {
         
-        Color backgroundColor = new Color(238,238,238);
+        Color backgroundColor = new Color(255, 255, 255);
         setBackground(backgroundColor);
         Color color = new Color(34, 68, 17);
         borderHover = new Color(57, 114, 29);

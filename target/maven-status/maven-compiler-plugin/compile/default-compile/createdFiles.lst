@@ -2,11 +2,11 @@ components\tertiaryButton$1.class
 components\SecundaryButton$1.class
 components\PrimaryButton$1.class
 com\projeto\iflab\IfLab.class
-components\SecundaryButton.class
-components\test$3.class
+components\IconTextField.class
 components\test.class
-components\test$1.class
-components\test$4.class
 components\tertiaryButton.class
-components\PrimaryButton.class
 components\test$2.class
+components\SecundaryButton.class
+components\test$1.class
+components\PrimaryButton.class
+components\IconTextField$1.class
